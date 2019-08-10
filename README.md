@@ -1,1 +1,1 @@
-# https://annazankevich.github.io/NeutronMail/index.html
+# https://annazankevich.github.io/NeutronMail/NeutronMail/index.html
