@@ -1,0 +1,724 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;;
+}
+
+.header {
+    margin: 0 40px;
+}
+
+.logo {
+    color: #858688;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.logo-language {
+    margin-top: 32px;
+}
+
+.logo::after {
+    content: 'Mail';
+    color: #5b4295;
+}
+
+.language {
+    color: #959595;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.language:hover {
+    color: #5f2e69;
+}
+
+.separator {
+    color: #959595;
+    margin: 0 7px;
+    list-style-type: none;
+}
+
+.languages {
+    display: flex;
+    padding: 0;
+    margin: 11px 0 0 0;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.auth {
+    margin-top: 10px;
+}
+
+.menu {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    margin-right: 47px;
+}
+
+.menu-item {
+    margin-right: 29px;
+    letter-spacing: 0.16px;
+}
+
+.login {
+    margin-right: 20px;
+}
+
+.account {
+    background: url("assets/images/neutronmail.jpg") no-repeat;
+    min-height: 669px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.title {
+    opacity: 0.84;
+    color: #454545;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+.basedin {
+    color: #464646;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+.basedin::after {
+    content: 'Somewhere';
+    color: #fc2028;
+}
+
+.button-account {
+    width: 180px;
+    height: 56px;
+    background: linear-gradient(to left, #5f2e69, #636b92);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.17), 0 3px 3px rgba(102, 145, 233, 0.09), 0 3px 9px rgba(0, 0, 0, 0.09), 0 3px 9px rgba(53, 103, 205, 0.09), 0 4px 16px rgba(0, 0, 0, 0.09), 0 4px 16px rgba(102, 145, 233, 0.33), 0 13px 21px rgba(0, 0, 0, 0.15), 0 13px 21px rgba(20, 80, 204, 0.27), 0 7px 9px rgba(100, 115, 151, 0.15), 0 0 7px rgba(95, 47, 106, 0.25);
+    border-radius: 28px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 56px;
+    margin: -1px 26px;
+    cursor: pointer;
+    letter-spacing: 0.18px;
+    margin-left: 0;
+
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    margin-top: 63px;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.appstore {
+    width: 46px;
+    height: 46px;
+    background: url("assets/images/appstore.png");
+}
+
+.app-store {
+    margin-left: 51px;
+}
+
+.googleplay {
+    width: 46px;
+    height: 46px;
+    background: url("assets/images/googleplay.png");
+    margin-left: 17px;
+}
+
+.item-link {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #454545;
+    transition: color 0.2s;
+}
+
+.item-link:hover {
+    color: #5f2e69;
+}
+
+.social {
+    position: absolute;
+    right: 18px;
+    list-style-type: none;
+}
+
+.social-link {
+    width: 19px;
+    height: 19px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.google {
+    background: url("assets/images/google.png");
+}
+
+.facebook {
+    background: url("assets/images/facebook.png");
+}
+
+.twitter {
+    background: url("assets/images/twitter.png");
+}
+
+.button {
+    font-weight: 700;
+    border: 0;
+    outline: none;
+}
+
+.login::before {
+    content: url("assets/images/login.png");
+}
+
+.login:hover {
+    color: #5f2e69;
+}
+
+.login {
+    text-decoration: none;
+    color: #454545;
+    font-weight: 700;
+}
+
+.sing-up {
+    width: 94px;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom right, #5f2e69, #616cc2);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.17), 0 3px 3px rgba(102, 145, 233, 0.09), 0 3px 9px rgba(0, 0, 0, 0.09), 0 3px 9px rgba(53, 103, 205, 0.09), 0 4px 16px rgba(0, 0, 0, 0.09), 0 4px 16px rgba(102, 145, 233, 0.33), 0 13px 21px rgba(0, 0, 0, 0.15), 0 13px 21px rgba(20, 80, 204, 0.27), 0 7px 9px rgba(142, 117, 222, 0.15);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.login {
+    background: transparent;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.security-title {
+    color: #555555;
+    font-size: 27px;
+    letter-spacing: 1.6px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+.image-encryption {
+    margin-top: -8px;
+}
+
+.security-header {
+    display: flex;
+    align-items: flex-start;
+}
+
+.security-subtitle {
+    color: #959393;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.security-image {
+    margin-right: 7px;
+    height: 68px;
+}
+
+.security-description {
+    color: #959393;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 0.14px;
+    margin: 22px 50px 0 15px;
+}
+
+.security-item {
+    flex: 1;
+    padding-left: 22px;
+    margin-right: 14px;
+}
+
+.security-button {
+    width: 276px;
+    height: 37px;
+    border-radius: 31px;
+    border: 1px solid #b9b9b9;
+    background-color: #ffffff;
+    outline: none;
+    color: #676767;
+}
+
+.red {
+    color: #f65151;
+}
+
+.feature {
+    color: #535353;
+    font-weight: 400;
+    line-height: 1px;
+    letter-spacing: 0.6px;
+    margin-top: 31px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.describe {
+    color: #959393;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22px;
+    max-width: 80%;
+    margin-left: AUTO;
+}
+
+.advantages {
+    font-family: 'Malaga OT Reg';
+    font-weight: 400;
+    line-height: 24px;
+    color: #101010;
+    max-width: 532px;
+    font-size: 24px;
+    margin: 65px 19vw 0;
+    letter-spacing: 0.8px;
+    line-height: 31px;
+}
+
+.advantages-quote {
+    margin-bottom: 0px;
+    margin-top: -32px;
+    margin-left: 16px;
+}
+
+.author {
+    margin-left: 16px;
+    color: #727272;
+    font-size: 16px;
+}
+
+.device {
+    display: none;
+}
+
+.information {
+    text-align: center;
+    background: linear-gradient(to bottom, #f2f2f2, #fcfcfc);
+    position: relative;
+}
+
+.info-menu {
+    max-width: 433px;
+    margin: 0 auto;
+    z-index: 4;
+    position: relative;
+    padding-top: 100px;
+}
+
+.info {
+    color: #535353;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+    padding-left: -35px;
+    margin-bottom: 22px;
+}
+
+.info-description {
+    color: #959393;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 29px;
+}
+
+.google-market {
+    margin-left: 6px;
+}
+
+.support {
+    text-align: center;
+    padding-top: 36px;
+    border-top: 1px solid #b9b9b9;
+    background: linear-gradient(to bottom right, #fcfcfc, #ffffff);
+}
+
+.privacy {
+    color: #535353;
+    font-size: 27px;
+    line-height: 2px;
+    margin-top: 54px;
+}
+
+.privacydecription {
+    color: #7c7c7c;
+    font-size: 29px;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-bottom: 32px;
+    letter-spacing: 0.23px;
+}
+
+.donate {
+    width: 166px;
+    height: 56px;
+    background: linear-gradient(to bottom right, #5e7bea, #35bbe0);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.17), 0 3px 3px rgba(26, 230, 218, 0.09), 0 3px 9px rgba(0, 0, 0, 0.09), 0 3px 9px rgba(26, 230, 218, 0.09), 0 4px 16px rgba(0, 0, 0, 0.09), 0 4px 16px rgba(26, 230, 218, 0.33), 0 13px 21px rgba(0, 0, 0, 0.15), 0 13px 21px rgba(26, 230, 218, 0.27), 0 7px 9px rgba(26, 230, 218, 0.15), 0 0 7px rgba(95, 47, 106, 0.25);
+    border-radius: 28px;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 56px;
+    cursor: pointer;
+    margin-left: 21px;
+}
+
+.help-privacy {
+    text-align: center;
+    color: #7a7a7a;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 16px;
+    margin-bottom: -5px;
+    position: relative;
+    margin-top: 19px;
+    letter-spacing: 0.25px;
+}
+
+.header-menu-footer {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.18px;
+    text-align: left;
+    padding-right: 24px;
+    color: #5c5c5c;
+}
+
+.nav-footer {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-left: 60px;
+    color: #5c5c5c;
+}
+
+.email {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+.contacts {
+    border-left: 1px solid #b9b9b9;
+    padding-left: 18px;
+}
+
+.menu-footer {
+    margin-left: 48px;
+}
+
+.email-link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #5c5c5c;
+}
+
+.web-link {
+    font-weight: 700;
+    letter-spacing: 0.14px;
+    text-decoration: underline;
+    color: #5c5c5c;
+}
+
+.website {
+    margin-top: 26px;
+}
+
+.social-network {
+    display: flex;
+    padding: 0;
+    margin-left: 40px;
+    margin-top: 42px;
+}
+
+.social-network-link {
+    color: #959595;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    line-height: 22px;
+    margin-right: 5px;
+}
+
+.copyright {
+    color: #5c5c5c;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.12px;
+    margin-left: 40px;
+    margin-top: -6px;
+}
+
+@media (min-width: 768px) {
+
+    .menu-auth {
+        display: flex;
+    }
+
+    .security-list {
+        display: flex;
+        margin-top: 42px;
+        margin-left: 87px;
+    }
+
+    .device {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: -9px;
+        z-index: 3;
+    }
+
+    .feature {
+        font-size: 40px;
+    }
+
+    .menu-nav {
+        display: flex;
+    }
+
+    .footer-mail {
+        border-right: 1px solid #b9b9b9;
+    }
+
+    .footer-menu {
+        margin-top: 84px;
+    }
+
+    .privacy {
+        font-size: 30px;
+        letter-spacing: 0.3px;
+    }
+
+    .company-menu {
+        border-right: 1px solid #b9b9b9;
+    }
+
+    .nav-footer {
+        direction: rtl;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-left: 60px;
+        white-space: nowrap;
+        color: #5c5c5c;
+    }
+
+    .help {
+        padding-bottom: 130px;
+    }
+
+    .help-privacy {
+        text-align: end;
+    }
+
+    .contacts {
+        margin-left: 134px;
+    }
+
+    .border {
+        border-right: 1px solid #b9b9b9;
+    }
+
+    .describe {
+        margin-bottom: -3px;
+    }
+
+    .physicalsecurity {
+        text-align: right;
+        margin-right: calc(33.33% - 15px);
+        padding-right: 18px;
+        padding-top: 114px;
+        margin-left: 87px;
+    }
+
+    .security-button {
+        width: 334px;
+        height: 62px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        border-radius: 31px;
+        transform: translate(55%, 50%);
+        color: #676767;
+    }
+
+    .companies {
+        margin-top: 69px;
+        margin-left: 15px;
+    }
+
+    .information {
+        min-height: 577px;
+        margin-top: -158px;
+    }
+
+    .blockquote {
+        clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+        background: #ffffff;
+        padding-top: 17px;
+        height: 250px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .security-header {
+        flex-direction: column;
+    }
+
+    .social-network {
+        margin-left: 133px;
+    }
+
+    .copyright {
+        margin-left: 133px;
+    }
+
+
+    .button-account {
+        width: 246px;
+        height: 56px;
+        background: linear-gradient(to left, #5f2e69, #636b92);
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.17), 0 3px 3px rgba(102, 145, 233, 0.09), 0 3px 9px rgba(0, 0, 0, 0.09), 0 3px 9px rgba(53, 103, 205, 0.09), 0 4px 16px rgba(0, 0, 0, 0.09), 0 4px 16px rgba(102, 145, 233, 0.33), 0 13px 21px rgba(0, 0, 0, 0.15), 0 13px 21px rgba(20, 80, 204, 0.27), 0 7px 9px rgba(100, 115, 151, 0.15), 0 0 7px rgba(95, 47, 106, 0.25);
+        border-radius: 28px;
+        border: 0;
+        outline: none;
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 56px;
+        cursor: pointer;
+        letter-spacing: 0.18px;
+    }
+
+    .header-menu-footer {
+        text-align: right;
+    }
+
+    .title {
+        opacity: 0.84;
+        color: #454545;
+        font-size: 60px;
+        font-weight: 600;
+        letter-spacing: 0.36px;
+        margin-top: 102px;
+    }
+
+    .company-image {
+        margin-left: 34px;
+    }
+
+    .image-company {
+        text-align: right;
+        padding-right: 17px;
+    }
+
+    .info-menu {
+        padding-top: 217px;
+        text-align: right;
+        padding-right: 24px;
+    }
+
+    @media (min-width: 1400px) {
+        .wrapper {
+            max-width: 1400px;
+            margin: 0 auto;
+            align-items: center;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .help {
+            border-right: 1px solid #b9b9b9;
+            border-top: 1px solid #b9b9b9;
+        }
+
+        .device {
+            display: block;
+            position: absolute;
+            right: 201px;
+            top: -74px;
+            z-index: 3;
+        }
+
+        .physicalsecurity {
+            border-bottom: 1px solid #b9b9b9;
+            border-right: 1px solid #b9b9b9;
+        }
+
+        .footer-menu {
+            margin-right: 330px;
+        }
+    }
+    @media (min-width: 1050px) {
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 198px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .social {
+            margin-top: -246px;
+        }
+
+        .security-header {
+            flex-direction: row;
+        }
+
+        .feature {
+            font-size: 57px;
+        }
+    }
+    @font-face {
+        font-family: Malaga OT Reg;
+        src: url(assets/fonts/MalagaOT-RegItalic.otf);
+        font-weight: normal;
+        font-style: italic;
+    }
+}
